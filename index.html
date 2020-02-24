@@ -13,7 +13,7 @@
 </head>
 <body style="background: url('img/maanaim.jpg'); background-size: cover;">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-danger border-bottom box-shadow">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-primary border-bottom box-shadow">
             <div class="container">
                 <a class="navbar-brand">SisMaanaim</a>
             </div>
@@ -31,24 +31,32 @@
 
             <!-- CARD DE LOGIN -->
             <div class="card mx-auto d-block mt-5 bg-white rounded-lg border-0 shadow-sm" style="width:400px;">
-                    <div class="card-header bg-info">
-                        
-                    </div>
+                    <div class="card-header bg-info"></div>
                     <div class="card-body">
-                        <form class="form-group">
+                        <form class="form-group" action="dashboard-caixa.html">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Digite seu CPF" id="cpf" />
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-user"></i></span>
+                                      </div>
+                                    <input type="text" class="form-control" placeholder="Digite seu CPF" id="cpf" />
+                                </div>
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" placeholder="Digite a Senha" id="senha" />
-                            </div>
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text"><i class="fa fa-key"></i></span>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="Digite a Senha" id="senha" />
+                                    </div>
+                                </div>
                             <div class="form-group form-check custom-control custom-switch">
                                 <input class="form-check-input custom-control-input" type="checkbox" id="switch1">
                                 <label class="form-check-label custom-control-label" for="switch1">
                                     Lembrar login
                                 </label>
                             </div>
-                            <button type="submit" class="bnt btn-info btn-lg btn-block mx-auto d-block rounded">ENTRAR</button>
+                            <button type="submit" class="bnt btn-info btn-lg btn-block mx-auto d-block rounded-lg">ENTRAR</button>
                         </form>
                     </div>
                     <div class="card-footer bg-info"></div>
@@ -59,7 +67,7 @@
     
     <footer class="footer fixed-bottom border-top  text-muted bg-white">
         <div class="container">
-            &copy; 2019 - SisMaanaim - DF
+            <p class="small mt-2">Todos os Direitos Reservados &copy; 2019 - SisMaanaim - DF</p>
         </div>
     </footer>
 </body>
