@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SisMaanaim - Maanaim-DF</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="bootstrap-4.4.1/dist/css/bootstrap.min.css" />
+    <script src="bootstrap-4.4.1/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-danger border-bottom box-shadow">
+            <div class="container">
+                <a class="navbar-brand">SisMaanaim</a>
+            </div>
+        </nav>
+    </header>
+    
+        <div class="container-fluid">
+          <main>
+            <div class="flex-wrap">
+        
+                <div class="row">
+                    <!--Inínio Coluna/Menu-->
+                    <nav class="col-xl-2 col-lg-2 col-md-3 navbar-expand-md navbar-toggleable-md sidebar sticky-top bg-white border border-right border-light">
+                        <button class="navbar-toggler m-2 text-white" type="button" data-toggle="collapse" data-target="#navbarContent"
+                                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"  style="background-image: linear-gradient(to bottom, #133453, #4A6B8A);">
+                            <i class="fa fa-bars"></i><span>&nbsp;Menu Sistema</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarContent">
+                            <div class="sidebar-sticky">
+                                <div class="sidebar-heading">
+                                    <hr />
+                                    <div class="media">
+                                        <h1><span class="fa fa-user align-self-center mr-2"></span></h1>
+                                        <div class="media-body">
+                                        <h5>Lindolfo<small class="text-nowrap"> Operador de Caixa</small></h5>
+                                        </div>
+                                    </div>
+                                        <div class="clearfix d-flex flex-wrap">
+                                            <a class="badge badge-secondary flex-fill" href="#"><span class="fa fa-key"></span> SENHA</a>
+                                            <a class="badge badge-secondary flex-fill ml-2" href="#"><span class="fa fa-sign-out-alt"></span> SAIR</a>
+                                        </div>
+                                    
+                                    <hr />
+                                </div>
+                                <ul class="nav nav-pills flex-column justify-content">
+    
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#">
+                                            <span class="fas fa-home"></span> Painel
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#">
+                                            <span class="fa fa-credit-card"></span> Vender
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#">
+                                            <span class="fa fa-donate"></span> Carregar
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#">
+                                            <span class="fa fa-comment-dollar"></span> Consultar
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#">
+                                            <span class="fa fa-arrow-circle-left"></span> Estornar
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#">
+                                            <span class="fa fa-hand-holding-usd"></span> Devolução
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#">
+                                            <span class="fa fa-save"></span> Sangria
+                                        </a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                                            <span class="fa fa-chart-pie"></span>Histórico
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" data-toggle="dropdown" href="#">Caixa</a>
+                                            <a class="dropdown-item" data-toggle="dropdown" href="#">Cliente</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#">
+                                            <span class="fa fa-save"></span> Abastecimento
+                                        </a>
+                                    </li>
+                                    
+    
+                                </ul>
+                                <hr />
+                                
+                                    <a class="d-flex align-items-center btn btn-danger btn-block text-center" href="#">
+                                        <span class="fa fa-exclamation-circle"></span>&nbsp;Ocorrência
+                                    </a>
+                               
+                                <hr />
+                            </div>
+                        </div>
+                    </nav>
+                    <!--Fim Coluna/Menu-->
+                    <!--Inínio ConteúdoPrincipal-->
+                    <div class="col-xl-10 col-lg-10 col-md-9 col-sm-12 ml-sm-auto px-4">
+                        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                            <h1 class="h2">Painel de Controle</h1>
+                        </div>
+                        <div class="container-fluid d-flex flex-wrap justify-content-center">
+                            <div class="row d-flex flex-row flex-fill col-12 col-sm-4 col-lg-4 bg-success text-white rounded-lg p-1 m-1">
+                                <div class="text text-center text-dark bg-white h3 col-lg-12 rounded-lg font-weight-bolder">EM CAIXA</div>
+                                <div class="col-4 col-sm-4 col-lg-4 text text-center small"><strong>Abertura</strong><br>R$ 211,86</div>
+                                <div class="col-4 col-sm-4 col-lg-4 text text-center small"><strong>Créditos</strong><br>R$ 211,86</div>
+                                <div class="col-4 col-sm-4 col-lg-4 text text-center small"><strong>Débitos</strong><br>R$ 211,86</div>
+                                <div class="col-12 col-sm-12 col-lg-12 text text-center pt-3 h6"><strong>Total</strong><br>R$ 211,86</div>
+                            </div>
+                            <div class="row d-flex flex-row flex-fill col-12 col-sm-4 col-lg-3 bg-danger text-white rounded-lg p-1 m-1">
+                                <div class="text text-center text-dark bg-white h3 col-lg-12 rounded-lg font-weight-bolder">ESTORNO</div>
+                                <div class="col-4 col-sm-4 col-lg-4 text text-center small"><strong>Abertura</strong><br>R$ 211,86</div>
+                                <div class="col-4 col-sm-4 col-lg-4 text text-center small"><strong>Créditos</strong><br>R$ 211,86</div>
+                                <div class="col-4 col-sm-4 col-lg-4 text text-center small"><strong>Débitos</strong><br>R$ 211,86</div>
+                                <div class="col-12 col-sm-12 col-lg-12 text text-center pt-3 h6"><strong>Total</strong><br>R$ 211,86</div>
+                            </div>    
+                            <div class="row d-flex flex-row flex-fill col-12 col-sm-4 col-lg-3 bg-warning text-dark rounded-lg p-1 m-1">
+                                <div class="text text-center text-dark bg-white h3 col-lg-12 rounded-lg font-weight-bolder">SANGRIA</div>
+                                <div class="col-4 col-sm-4 col-lg-4 text text-center small"><strong>Abertura</strong><br>R$ 211,86</div>
+                                <div class="col-4 col-sm-4 col-lg-4 text text-center small"><strong>Créditos</strong><br>R$ 211,86</div>
+                                <div class="col-4 col-sm-4 col-lg-4 text text-center small"><strong>Débitos</strong><br>R$ 211,86</div>
+                                <div class="col-12 col-sm-12 col-lg-12 text text-center pt-3 h6"><strong>Total</strong><br>R$ 211,86</div>
+                            </div>
+                        </div>
+                        <!-- ATALHOS -->
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#vendacartao">Vender</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#carregar">Carregar</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#consultar">Consultar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#editar">Editar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#cadastrar">Cadastrar</a>
+                            </li>
+                        </ul>
+                        
+                        <!-- CONTEÚDO ATALHOS -->
+                        <div class="tab-content">
+                            <div class="tab-pane container active" id="vendacartao">
+                                Venda de Cartão
+                            </div>
+                            <div class="tab-pane container fade" id="carregar">
+                                Adicionar Crédito - Consulta por Nome ou CPF
+                            </div>
+                            <div class="tab-pane container fade" id="consultar">
+                                Consultar Saldo Cartão - Consulta por Nome ou CPF
+                            </div>
+                            <div class="tab-pane container fade" id="editar">
+                                Editar Cliente
+                            </div>
+                            <div class="tab-pane container fade" id="cadastrar">
+                                Novo Cliente
+                            </div>
+                        </div>
+                    </div>
+                    <!--Fim ConteúdoPrincipal-->
+                </div>
+    
+            
+            </div>
+          </main>  
+        </div>
+    
+    <footer class="border-top footer text-muted bg-white">
+        <div class="container">
+            &copy; 2019 - SisMaanaim - DF
+        </div>
+    </footer>
+</body>
+</html>
